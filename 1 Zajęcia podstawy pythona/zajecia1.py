@@ -1,6 +1,6 @@
 # Rodzaje zmiennych w Pythonie
 
-liczba = 2 # liczba całkowita (integer)
+liczba = 22 # liczba całkowita (integer)
 liczba2 = 4.6 # liczba zmiennoprzecinkowa (float)
 imie = "Mateusz" # łańcuch znaków (string)
 logiczna = True  # Zmienna logiczna (boolean)
