@@ -1,0 +1,10 @@
+Dane podogowe IMGW
+23.02.2021 08:43:23 UTC
+parametr wartość jednostka
+opad 6 mm
+temperatura 25 C
+wilgotnośc 35 %
+ciśnienie null hPa
+
+Komentarz do pomiarów:
+Nastąpiła awaria barometru

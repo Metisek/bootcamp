@@ -1,0 +1,8 @@
+To jest pierwsza linia
+To jest druga linia
+Tu się zaczynają dane:
+34 56 23
+23 67 54
+94 53 70
+23 53 64
+254 53 644
