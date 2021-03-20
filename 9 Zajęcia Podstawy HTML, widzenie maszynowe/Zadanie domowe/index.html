@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Przelicznik jednostek</title>
+  </head>
+  <body>
+  <h1 align="center"> Przelicznik wartości </h1>
+
+  <!-- Zamierzam do tych zdjęć zrobić animację !-->
+
+  <div style="width: 500px; height: 300px;">
+    <img src="miary.jpg" alt="" width="100%" height="100%">
+  </div>
+    <img src="waga.jpg" alt="" width="50%" height="100%">
+    <img src="waluty.jpg" alt="" width="50%" height="100%">
+    <br><br>
+<div class="" align="center">
+  <select id='parent select'class="" name="">
+    <option value="">-</option>
+    <option value="">Wagowe</option>
+    <option value="">Walutowe</option>
+    <option value="">Miernicze</option>
+  </select>
+
+  <!-- Ta część będzie z JS !-->
+
+    <select id='b'class="" name="">
+      <option value="">-</option>
+      <option value="">USD - PLN</option>
+      <option value="">PLN - USD</option>
+      <option value="">KG - FUNT</option>
+      <option value="">FUNT - KG</option>
+      <option value="">KM - MILA</option>
+      <option value="">MILA - KG</option>
+      <option value=""></option>
+    </select>
+    <input type='number' id="a" value="1">
+    <button type="button" name="button">Przelicz</button>
+    <output name="x" for='a b'></output>
+  </div>
+    <hr>
+
+    <div class="" align="center">
+      <h2> Wyliczanie wartości z danego kąta z suwaka </h2>
+      <p> <input type="range" step="0.1" id='c' value="24" min="1" max="90" oninput="this.nextElementSibling.value = this.value">
+        <output>24</output>&#176;:
+        <select id='tryg'class="" name="">
+          <option value="">-</option>
+          <option value="">sin</option>
+          <option value="">cos</option>
+          <option value="">tg</option>
+          <option value="">ctg</option>
+        </select>
+         = <output name="result"></output>
+      </p>
+    </div>
+
+  <!-- Koniec części z wymaganym JS !-->
+    <hr>
+
+    <!-- Nie wiem czy tutaj powinno się korzystać z API walutowych oraz jak to zrobić, także na rrazie robię statycznie i zostawiam do przyszłej edycji !-->
+
+    <h2 align="center"> Tabela przeliczników wartości </h2>
+    <div class="" align = "center">
+    <table>
+      <th>Kategoria</th> <th>Przelicznik</th> <th>Wartość 1</th> <th>Wartość 2</th>
+      <tr>
+        <td rowspan="2">Wagi</td><td>KG - FUNT</td><td>1</td><td>2.204623</td>
+      </tr>
+      <tr>
+        <td>FUNT - KG</td> <td>1 </td> <td>0.4535923</td>
+      </tr>
+      <tr>
+        <td rowspan = "2">Waluty</td> <td>PLN - USD</td> <td>1</td> <td>3.84440</td>
+      </tr>
+      <tr>
+        <td>USD - PLN</td> <td>1</td> <td>0.26015</td>
+      </tr>
+      <tr>
+        <td rowspan = "2">Miernicze</td> <td>KM - MILA</td> <td>1</td> <td>0.62137119223733</td>
+      </tr>
+      <tr>
+        <td>MILA - KM</td> <td>1</td> <td>1,60934400</td>
+      </tr>
+    </table>
+    </div>
+    <hr>
+    <h2 align="center"> Jak przeliczać waluty: Przykład z Excela </h2>
+    <div class="" align = "center">
+        <iframe width="600" height=420" src="https://www.youtube.com/embed/Z3SmQ5ucHAQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+  </body>
+</html>

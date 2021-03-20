@@ -1,0 +1,72 @@
+body{
+  background-color: red;
+}
+
+h2 {
+  font-family: cursive;
+}
+
+p, h2 {
+  color: white;
+  text-align: justify;
+  /* vertical-align: top; */
+  text-transform: capitalize;
+
+}
+p {
+    text-indent: 20%;
+    letter-spacing: 0.2px;
+    line-height: 1.5;
+    word-spacing: 10px;
+    /*text-shadow: 5px 5px 3px black;*/
+    white-space: normal;
+    font-family: "MinecraftiaRegular";
+    /* font-family: "Comic Sans MS"; */
+    font-variant: small-caps;
+    font-size: 12px;
+      border: dotted 2px black;
+
+}
+/* Komentarz CSS */
+span {
+  text-decoration: line-through;
+  border: dotted 2px black;
+
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+th {
+height: 70px;
+}
+th, td{
+  padding: 15px;
+text-align: left;
+}
+table, th, td {
+  border: 1px dotted #000;
+}
+/*
+table {
+border: 1px solid black;
+}
+th {
+text-align: left;
+}
+table, th, td {
+  border: 1px solid black;
+}
+*/
+img {
+border-radius: /*20px*/ 20%;
+border: 1px solid #ddd;
+filter: hue-rotate(100deg);
+padding: 5px;
+/* width: 100px; */
+filter: grayscale(100%);
+opacity: 0.5;
+max-width: 100%;
+height: auto;
+}
