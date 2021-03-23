@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 from shapely.geometry import Polygon, Point
 import urllib
 import json
@@ -23,17 +24,12 @@ file = open('Czujniki_Przemysl.geojson', 'w')
 geolista = []
 
 for i in data:
-    lat = float(i['location']['latitude'])
-    lon = float(i['location']['longitude'])
-    id = i['id']
+    lat = i['location']['latitude']
+    lon = i['location']['longitude']
     point = Point(float(lon), float(lat))
     if point.within(polyg) == True:
-        x = {"type":"Feature","geometry":{"type":"Point","coordinates":[lon, lat]}, "properties":{"id":id}} 
-        y = json.dumps(x)
-        geolista.append(json.loads(y))
-        
-wyj = {"type": "FeatureCollection","features":geolista}
-wyjscie = json.dumps(wyj)
-file.write(wyjscie)
+        geolista.append('a')
+        geolista.append(str({"type":"Feature","geometry":{"type":"Point","coordinates":[lat, lon]}, "properties":{"id":123 }))    
 
-file.close()
+wyjscie = '{"type": "FeatureCollection","features":{}}'.format(geolista)
+file.write(wyjscie)
