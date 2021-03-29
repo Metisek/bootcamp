@@ -1,0 +1,16 @@
+body{
+    background-color: #777;
+}
+
+img {
+    border-radius: 100px /* 20% */; /* Zaokrąglenie rogów zdjęcia */
+    filter: hue-rotate(100deg); /* Zmiana hue zdjęcia (obrót o 100 stopni) */
+    border: 2px solid #FF0000; /* Kolor obramówki */
+    padding: 5px; /* Wcięcie obramówki */
+    /* width: 100px; */
+    /* filter: grayscale(100%); */ /* Filter zdjęcia */
+    opacity: 0.5; /* Przeźroczystość */
+    max-width: 100%; /* Maksymalna szerokość zdjęcia */
+    height: auto; /* Automatyczne określenie wysokości zdjęcia */
+    }
+    

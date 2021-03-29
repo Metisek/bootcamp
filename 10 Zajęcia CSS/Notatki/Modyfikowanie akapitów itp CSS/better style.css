@@ -1,0 +1,67 @@
+body{
+  background-color: #dddddd; /* Kolor tła dla całego dokumentu */
+}
+
+.pierwsza {
+  font-family: "MinecraftiaRegular"; /* Font, zinportowany ze strony www z fontami, jest wpis w html'u */
+  background-color: #cab9b9; /* Kolor tła dla pierwszego akapitu*/
+}
+
+.druga {
+  font-family: "MinecraftiaRegular"; /* Font minecraftowy */
+  background-color: #aacccc; /* Kolor tła dla drugiego akapitu*/
+  text-indent: 60px; /* Wcięcie tekstu */
+}
+
+.drugaSrodek {
+  text-indent: 0px; /* Usunięcie wcięcia, ta klasa znajduje się w środku innego kontenera, który to daje duże wcięcie. Nadpisuje ustawienie kontenera-rodzica */
+  font-family: "Roboto"; /* Zmiana czcionki */
+  background-color: #ccc888; /* Kolor tła dla tego kontenera */
+}
+
+li {
+  text-indent: 0px; /* Wyzerowanie wcięcia tekstu */
+}
+
+#unique{
+  color: #442299; /* Przypisanie koloru dla obiektu w HTML posiadającym powyższe ID */
+}
+
+.unikalna {
+  color: #992244; /* Przypisanie koloru dla obiektu w HTML posiadającym daną klasę */
+}
+
+.przycisk{
+  background-color: red;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+
+.przycisk:hover{
+  background-color: blue;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+
+.leftSide{
+  border: solid 1px red;
+  position: absolute;
+  width: 25%;
+  height: 100px;
+}
+.top{
+  border: solid 1px green;
+  height: 45px;
+}
+.bottom{
+  border: solid 1px blue;
+}
+.content{
+  border: solid 1px black;
+  position: absolute;
+  width: 60%;
+  left: 30%;
+  height: 100px;
+}

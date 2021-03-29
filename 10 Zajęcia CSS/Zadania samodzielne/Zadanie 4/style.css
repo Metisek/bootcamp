@@ -1,0 +1,47 @@
+body{
+    background-color: #75776a; /* Kolor tła dla całego dokumentu */
+    color: rgb(31, 31, 31);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+.photo{
+    border-spacing: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    width:150px;
+    height:200px;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+}
+
+.filler{
+    width: 33%
+}
+img{
+    width:150px;
+    height:200px;
+    filter:grayscale(100%) blur(3px);
+    transition: 0.3s;
+}
+
+img:hover{
+    filter:grayscale(0%) blur(0px);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    padding:5px;
+    color: black;
+}
+.galeria{
+    display:flex;
+    padding: 40px;
+    background-color: #cccccc;
+    border: 5px solid #bebebe;
+    border-collapse: collapse;
+}

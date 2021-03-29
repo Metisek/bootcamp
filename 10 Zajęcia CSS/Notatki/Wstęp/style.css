@@ -59,14 +59,3 @@ table, th, td {
   border: 1px solid black;
 }
 */
-img {
-border-radius: /*20px*/ 20%;
-border: 1px solid #ddd;
-filter: hue-rotate(100deg);
-padding: 5px;
-/* width: 100px; */
-filter: grayscale(100%);
-opacity: 0.5;
-max-width: 100%;
-height: auto;
-}

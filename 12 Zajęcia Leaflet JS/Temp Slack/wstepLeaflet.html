@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nauka Lealfet</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+	<link rel="stylesheet" href="wstepLeaflet.css">
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+	<script src="https://unpkg.com/proj4leaflet@1.0.2/lib/proj4-compressed.js"></script>
+	<script src="https://unpkg.com/proj4leaflet@1.0.2/src/proj4leaflet.js"></script></head>
+	<script type="text/javascript" src="graniceWarszawyWGS84.geojson"></script>
+<body>
+	<div class="overlay">
+		<h3>Mój Geoportal</h3>
+		<p>Prezentowana treść ma charakter wyłącznie poglądowy. Nie może służyć do
+		prowadzenia i sporządzania dokumentacji techniczej oraz oficjalnych dokumentów.</p>
+		<input id="filterByName" type="text" onkeyup="SearchEarthquakeByLocation()">
+		<p id="coords"></p>
+	</div>
+<div id="mapid" style="width: 100%; height: 900px;"></div>
+<script type="text/javascript" src="wstepLeaflet.js"></script>
+</body>
+</html>

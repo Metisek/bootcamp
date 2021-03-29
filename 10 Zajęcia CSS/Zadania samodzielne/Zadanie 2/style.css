@@ -1,0 +1,29 @@
+p{
+    color: white;
+    text-indent: 10px;
+}
+
+body{
+    background-color: #272822;
+}
+
+table{
+    background-color:#1e1f1c;
+}
+
+.afill{
+    color: white;
+    font-family: 'Comic Sans MS';
+    width: initial;
+    cursor: pointer;
+    white-space:nowrap;
+    padding: 10px;
+    text-align: center;
+}
+
+.afill:hover{
+    background-color: #737373;
+}
+th.fill{
+    width: 99%; 
+}
