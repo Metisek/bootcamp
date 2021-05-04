@@ -135,6 +135,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 
 var points = turf.randomPoint(45, {bbox: [20.92950381,52.195038,21.094045,52.295152]});
+console.log(points)
 var options = {numberOfClusters: 4};
 var clustered = turf.clustersKmeans(points, options);
 var clusterColors = {0:'red', 1:'blue', 2:'green', 3:'yellow'};
